@@ -1,0 +1,82 @@
+*{    
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+body{
+    background: no-repeat rgba(0, 0, 0, 0.45);
+    background-image: url(img/messi.png);
+}
+.barra{
+    background: rgba(128, 128, 128, 0.348);
+    height: 80px;
+    max-height: 100px;
+    display: flex;
+}
+.titulo{
+    margin-left: 15px;
+    display: flex;
+    font-size:20px;
+}
+.barra{
+    text-decoration: none;
+    align-items: center;
+}
+.boton{
+    color: black;
+    font-size: 30px;
+    margin-left: 80px;
+}
+.boton:hover{
+    font-size: 35px;
+}
+h2{
+    
+}
+.text{
+    font-size: 35px;
+}
+.cuerpo{
+    display: flex;
+}
+.div1{
+    min-width: 50%;
+    max-width: 50%;
+    text-align: center;
+}
+.div2{
+    min-width: 50%;
+    
+}
+.nombre{
+    margin-left: 2%;
+    width: 550px;
+}
+.comenta{
+    min-width: 550px;
+    max-width: 550px;
+    min-height: 50px;
+    margin-left: 2%;
+}
+
+input{
+    font-size: 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.268);
+}
+input:hover{
+}
+.enviar:hover{
+    margin: 5px;
+
+}
+.Cajadecomentarios{
+ 
+}
+h4{  /*dice el nombre de usuario*/
+    max-width: 20%;
+    font-size: 25px;
+}
+h5{/*el contenido de los comentarios*/
+    font-size: 25px;
+}

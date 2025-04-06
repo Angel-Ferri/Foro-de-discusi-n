@@ -1,0 +1,102 @@
+*{    
+    margin: 0px;
+    text-decoration: none;
+}
+body{
+    background-color: #f4f4f4; /* Fondo claro para un contraste suave */
+    color: #333; /* Texto en un gris oscuro */
+}
+.barra{
+    height: 80px;
+    max-height: 100px;
+    display: flex;
+    background-color: #333; /* Barra de navegación en gris oscuro */
+}
+.titulo{
+    margin-left: 15px;
+    display: flex;
+    font-size: 20px;
+    color: #ffffff; /* Texto blanco para resaltar en la barra oscura */
+}
+.barra{
+    text-decoration: none;
+    align-items: center;
+}
+.boton{
+    color: #ffffff; /* Texto blanco */
+    font-size: 30px;
+    margin-left: 80px;
+    background-color: #007bff; /* Botón en azul vibrante */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.boton:hover{
+    background-color: #0056b3; /* Oscurece el botón al pasar el mouse */
+}
+h2{
+    color: #333; /* Títulos en gris oscuro */
+}
+.text{
+    font-size: 35px;
+    color: #555; /* Texto secundario en gris medio */
+}
+.cuerpo{
+    display: flex;
+}
+.div1{
+    min-width: 50%;
+    max-width: 50%;
+    text-align: center;
+    background-color: #ffffff; /* Fondo blanco para contraste */
+}
+.div2{
+    min-width: 50%;
+    background-color: #f0f0f0; /* Fondo gris claro */
+}
+.nombre{
+    margin-left: 2%;
+    width: 550px;
+    color: #333; /* Texto en gris oscuro */
+}
+.comenta{
+    min-width: 550px;
+    max-width: 550px;
+    min-height: 50px;
+    margin-left: 2%;
+    background-color: #ffffff; /* Fondo blanco para el área de comentarios */
+    border: 1px solid #ccc; /* Borde gris claro */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input{
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #ccc; /* Borde gris claro */
+    padding: 5px;
+    border-radius: 5px;
+}
+input:hover{
+    border-color: #007bff; /* Cambia el borde al azul del botón cuando se pasa el mouse */
+}
+.enviar:hover{
+    margin: 5px;
+    background-color: #0056b3; /* Cambia el fondo del botón al azul oscuro cuando se pasa el mouse */
+    color: #fff; /* Texto blanco */
+    cursor: pointer;
+}
+.Cajadecomentarios{
+    padding: 20px;
+    background-color: #fafafa; /* Fondo muy claro para la caja de comentarios */
+    border-radius: 10px;
+}
+h4{  /* nombre de usuario */
+    max-width: 20%;
+    font-size: 25px;
+    color: #007bff; /* Azul vibrante para resaltar los nombres de usuario */
+}
+h5{/* contenido de los comentarios */
+    font-size: 25px;
+    color: #555; /* Texto en gris medio */
+}

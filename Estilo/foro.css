@@ -1,0 +1,148 @@
+*{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: black;
+    color: rgb(235, 9, 9);
+}
+.barra{
+    height: 80px;
+    max-height: 100px;
+    display: flex;
+}
+.titulo{
+    display: flex;
+    color: red;
+    font-size:60px;
+}
+.f,.e,.r,.p,.l,.a,.y{
+    color: rgb(235, 9, 9);
+}
+.f:hover{
+    color: firebrick;
+}
+.e:hover{
+    color: orange;
+}
+.r:hover{
+    color: royalblue;
+}
+.p:hover{
+    color: deeppink;
+}
+.l:hover{
+    color: lime;
+}
+.a:hover{
+    color: aqua;
+}
+.y:hover{
+    color:yellow;
+}
+.barra{
+    text-decoration: none;
+    align-items: center;
+    border-bottom: rgba(255, 0, 0, 0.288) 5px solid;
+}
+.boton{
+    font-size: 30px;
+    color: rgb(235, 9, 9);
+    margin-left: 80px;
+}
+.boton:hover{
+    border: 2px outset red;
+    border-bottom: rgba(255, 0, 0, 0.288) 5px solid;
+}
+.div1{
+    
+}
+form{
+    
+}
+.enline{
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+.textfo{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.nombrefo{
+    width: 200px;
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+.comentafo{
+    width: 200px;
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+.forminf{
+    display: flex;
+}
+.enviarfo{
+    margin-left: 15px;
+}
+.barrita{
+    background: rgba(48, 48, 48, 0.233);
+    max-width: 53em;
+}
+.Cajadecomentarios{
+    height: 50px;
+    max-width: 53em;
+    min-height: 120px;
+}
+.User{/*NOMBRE DEL USUARIO DEL COMENTARIO*/
+    margin-left: 15px;
+}
+.fechaco{ /*FECHA DEL COMENTARIO*/  
+    margin-left: 15px;
+}
+.comentarico{ /*ESTILO DEL COMENTARIO*/
+    margin-left: 15px;
+}
+.caja{ /*CAJA DE LOS COMENTARIOS*/
+    min-height: 120px;
+    background: rgba(48, 48, 48, 0.233);
+}
+.comentarico {
+    min-width: 25em;     
+    word-wrap: break-word; /* Permite que el texto largo se ajuste al tamaño del div */
+    overflow: hidden; /* Evita que el texto salga del div */
+}
+
+.comentarico p {
+    text-align: justify;
+}
+.conte{
+    display: flex;
+}
+.barradetema{
+    margin-left: 85px;
+    background: rgba(48, 48, 48, 0.233);
+    font-size: 10px;
+    min-width: 20em;
+    max-width: 20em;
+    text-align: center;
+}
+.botonfor{
+    text-decoration: none;
+}
+.alerta{
+    text-align: center;
+    color: yellow;
+    font-size: 20px;
+    border: 2px solid yellow;
+}
+.error{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    border: 2px solid orange;    
+}

@@ -1,0 +1,149 @@
+*{
+    color: rgb(235, 9, 9);
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+b{
+    color: red;
+}
+body{
+    background-color: black;
+}
+.conte{
+    background-color: black;
+}
+.barra{
+    height: 80px;
+    max-height: 100px;
+    display: flex;
+}
+.titulo{
+    display: flex;
+    color: red;
+    font-size:60px;
+}
+.f,.e,.r,.p,.l,.a,.y{
+    color: rgb(235, 9, 9);
+}
+.f:hover{
+    color: firebrick;
+}
+.e:hover{
+    color: orange;
+}
+.r:hover{
+    color: royalblue;
+}
+.p:hover{
+    color: deeppink;
+}
+.l:hover{
+    color: lime;
+}
+.a:hover{
+    color: aqua;
+}
+.y:hover{
+    color:yellow;
+}
+.barra{
+    text-decoration: none;
+    align-items: center;
+    border-bottom: rgba(255, 0, 0, 0.288) 5px solid;
+}
+.boton{
+    font-size: 30px;
+    color: rgb(235, 9, 9);
+    margin-left: 80px;
+}
+.boton:hover{
+    border: 2px outset red;
+    border-bottom: rgba(255, 0, 0, 0.288) 5px solid;
+}
+.alerta{
+    color: rgb(235, 9, 9);
+    font-size: 35px;    
+    border: 2px solid rgba(235, 9, 9, 0.611);
+}
+.text{
+    color: rgb(235, 9, 9);
+    font-size: 35px;
+}
+.cuerpo{
+    display: flex;
+}
+.div1{
+    min-width: 50%;
+    max-width: 50%;
+    text-align: center;
+}
+.div2{
+    background-image: url(/Estilo/fire.gif);
+    min-width: 50%;
+    
+}
+.nombre{
+    margin-left: 2%;
+    width: 550px;
+}
+.comenta{
+    min-width: 550px;
+    max-width: 550px;
+    min-height: 50px;
+    margin-left: 2%;
+}
+
+input{
+    color: rgb(235, 9, 9);
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid rgba(255, 0, 0, 0.288);
+}
+input:hover{
+    border-color: rgb(235, 9, 9);
+}
+.enviar:hover{
+    margin: 5px;
+    border: 2px outset red;
+    border-bottom: rgba(255, 0, 0, 0.288) 5px solid;
+
+}
+.Cajadecomentarios{
+ 
+}
+h4{  /*dice el nombre de usuario*/
+    color: red;
+    max-width: 20%;
+    font-size: 25px;
+}
+h5{/*el contenido de los comentarios*/
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+.caja{
+    background-color: rgb(8, 8, 8);
+    border: rgb(255, 0, 0) solid 5px;
+}
+.conintro{
+    text-align: center;
+    margin-top: 10%;
+    background: rgba(38, 38, 38, 0.189);
+    font-size: 125%;
+}
+.foro{
+font-size: 40px;
+text-decoration: none;
+}
+.foroclick{
+    border-radius: 10%;
+    margin: auto;
+    border: 5px solid;
+    border-color: red;
+    max-width: 290px;
+}
+.foroclick:hover{
+    background: red;
+    color: black;
+    border: 5px solid;
+    border-color: rgba(255, 0, 0, 0.673);
+}
