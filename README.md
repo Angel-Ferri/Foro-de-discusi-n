@@ -1,2 +1,3 @@
-# Foro-de-discusi-n
-Php,Html,Css y MySql
+# Foro-de-discusion
+Php,Html,Css ,Js y MySql
+<br>
